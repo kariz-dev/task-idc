@@ -89,10 +89,12 @@ export default {
       img {
         background-size: cover;
         width: 500px;
+        height: 100%;
         border-radius: 10px;
 
         @media screen and (max-width: 600px) {
           width: 260px;
+          height: 100%;
         }
       }
     }
